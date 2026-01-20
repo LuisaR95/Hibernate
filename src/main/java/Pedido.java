@@ -25,3 +25,4 @@ public class Pedido {
     public void setUsuario(Usuario usuario) { this.usuario = usuario; }
     public double getTotal() { return total; }
 }
+//

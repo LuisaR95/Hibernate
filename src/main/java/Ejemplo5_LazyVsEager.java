@@ -98,3 +98,4 @@ public class Ejemplo5_LazyVsEager {
         HibernateUtil.shutdown();
     }
 }
+//

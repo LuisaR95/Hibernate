@@ -47,7 +47,7 @@ public class Ejemplo4_HQL {
                     "FROM Producto ORDER BY precio DESC", Producto.class);
             q5.list().forEach(p -> System.out.println("  $" + p.getPrecio() + " - " + p.getNombre()));
 
-            // 6. LIKE - búsqueda textual
+            // 6. LIKE - búsqueda textua
             System.out.println("\n=== Búsqueda: 'tado' ===");
             Query<Producto> q6 = session.createQuery(
                     "FROM Producto WHERE LOWER(nombre) LIKE LOWER('%' || :patron || '%')", Producto.class);

@@ -22,3 +22,5 @@
         <mapping class="Pedido"/>
     </session-factory>
 </hibernate-configuration>
+
+//

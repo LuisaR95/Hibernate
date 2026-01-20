@@ -33,7 +33,7 @@ public class Ejemplo1_PersistenciaBasica {
             if (session.getTransaction() != null) session.getTransaction().rollback();
             e.printStackTrace();
         } finally {
-            session.close(); // 5. Estado DETACHED (Desconectado)
+            session.close(); // 5. Estado DETACHED (Desconectado
         }
     }
 }
